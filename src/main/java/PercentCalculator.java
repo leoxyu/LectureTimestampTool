@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 // Takes in two BufferedImages and returns a double that represents the % difference
 public class PercentCalculator {
 
-    // assumes the frams are the same size (which they should be)
+    // assumes the frames are the same size (which they should be)
     public static double compare(BufferedImage img1, BufferedImage img2) {
         int w1 = img1.getWidth();
         int h1 = img1.getHeight();
