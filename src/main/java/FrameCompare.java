@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class FrameCompare {
 
     public static ArrayList<String> timeStamp(ArrayList<BufferedImage> imgArray, double spf) {
+        System.out.println("Finding times of interest...");
         ArrayList<String> arr = new ArrayList();
 
 
@@ -32,7 +33,7 @@ public class FrameCompare {
 
         }
         //System.out.println(arr.size());
-
+        System.out.println("Done.");
         return arr;
     }
 }
