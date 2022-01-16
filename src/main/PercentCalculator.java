@@ -7,16 +7,10 @@ import java.awt.image.BufferedImage;
 // Takes in two BufferedImages and returns a double that represents the % difference
 public class PercentCalculator {
 
+    // assumes the frams are the same size (which they should be)
     public static double compare(BufferedImage img1, BufferedImage img2) {
-        int w1 = img1.getHeight();
+        int w1 = img1.getWidth();
         int h1 = img1.getHeight();
-        int w2 = img2.getHeight();
-        int h2 = img2.getHeight();
-
-//        if ((w1 != w2) || (h1 != h2)) {
-//            System.out.println("dimensions should be the same between frames");
-//            return -1; // throw error here?
-//        }
 
         double totalDiff = 0;
         //Color pixel1 = new Color();
@@ -35,7 +29,8 @@ public class PercentCalculator {
             }
         }
         // total number of pixels multiplied by 3 (r,g,b)
-        double normalized = totalDiff / (w1 * w2 * 3);
+        // System.out.println("width " + w1 + "height " + h1);
+        double normalized = totalDiff / (w1 * h1 * 3);
         double percent = (normalized/255) * 100;
 
 
