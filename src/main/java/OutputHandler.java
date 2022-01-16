@@ -12,7 +12,7 @@ public class OutputHandler {
     public static boolean writeFile(ArrayList<String> arraylist) {
         System.out.println("Writing file...");
         try {
-            FileWriter myWriter = new FileWriter("Timestamps.txt");
+            FileWriter myWriter = new FileWriter("timestamps.txt");
             myWriter.write("=-=-=TIMESTAMPS=-=-=\n");
             // this should add the int to txt file
             for (int counter = 0; counter < arraylist.size(); counter++) {

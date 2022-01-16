@@ -1,1 +1,1 @@
-This folder wil contain the videos that end up being converted
+This folder wil contain the videos that end up being converted by default.
