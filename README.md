@@ -33,9 +33,9 @@ When we first began working on the program, our intentions were to use OpenCV to
 3. Blood, Sweat, Tears, and lack of sleep is what makes good programs 
 
 ## Built with?
-* IntelliJ IDEA
-* Java
-* Maven
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+* [JavaCV](https://github.com/bytedeco/javacv)
+* [Maven](https://maven.apache.org/)
 
 ## License
 MIT License
