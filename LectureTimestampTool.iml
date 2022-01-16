@@ -12,17 +12,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://D:/opencv/build/java/opencv-455.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/opencv/build/java/opencv-455.jar!/" />
         </CLASSES>
         <JAVADOC />
         <NATIVE>
-          <root url="file://D:/opencv/build/java/x64" />
+          <root url="file://$USER_HOME$/Downloads/opencv/build/java/x64" />
         </NATIVE>
         <SOURCES>
-          <root url="jar://D:/opencv/build/java/opencv-455.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/opencv/build/java/opencv-455.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/opencv/build/java/opencv-455.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
