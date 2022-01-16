@@ -1,4 +1,9 @@
 # Lecture Timestamp Tool
+      _    
+     c ". 
+\_   /\\  
+  \_| ||  𝑈𝑛𝑖𝑡𝑒𝑑 𝑀𝑜𝑛𝑘𝑒𝑦𝑠 𝐴𝑔𝑎𝑖𝑛𝑠𝑡 𝐼𝑛𝑓𝑖𝑛𝑖𝑡𝑒 𝑅𝑒𝑐𝑢𝑟𝑠𝑖𝑜𝑛 (𝑈𝑀𝐴𝐼𝑅)
+
 
 ## Who contributed?
 * Leo Yu
@@ -26,9 +31,9 @@ When we first began working on the program, our intentions were to use OpenCV to
 3. Blood, Sweat, Tears, and lack of sleep is what makes good programs 
 
 ## Built with?
-* [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-* [JavaCV](https://github.com/bytedeco/javacv)
-* [Maven](https://maven.apache.org/)
+* IntelliJ IDEA
+* Java
+* Maven
 
 ## License
 MIT License
