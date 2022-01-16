@@ -10,7 +10,7 @@ public class Test1Compare {
 
     public static void main(String[] args) {
         ArrayList<BufferedImage> imageArray = new ArrayList<BufferedImage>();
-        ArrayList<Integer> array = new ArrayList<Integer>();
+        ArrayList<String> array = new ArrayList();
         try{
             // this wont work unless you add testFolder directory
             imageArray.add(ImageIO.read(new File("././TestFolder/0001.jpg")));
@@ -34,7 +34,7 @@ public class Test1Compare {
             e.printStackTrace();
         }
 
-        array = FrameCompare.timeStamp(imageArray);
+        array = FrameCompare.timeStamp(imageArray, 1.0);
         for(int i=0;i< array.size();i++ ) {
             System.out.println(array.get(i)+1);
         }

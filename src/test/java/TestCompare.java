@@ -10,8 +10,8 @@ public class TestCompare {
         BufferedImage i2;
         try{
             // this wont work unless you add testFolder directory
-            i1 = ImageIO.read(new File("././TestFolder/smilumair.png"));
-            i2 = ImageIO.read(new File("././TestFolder/sadumair.png"));
+            i1 = ImageIO.read(new File("C://Users//Leo//Downloads//test//img-0.png"));
+            i2 = ImageIO.read(new File("C://Users//Leo//Downloads//test//img-1.png"));
         }catch (Exception e){
             System.out.println("There was an error with reading the image files");
             return;
