@@ -16,17 +16,13 @@ public class TestCompare {
         BufferedImage i2;
         try{
             // this wont work unless you add testFolder directory
-            i1 = ImageIO.read(new File("././TestFolder/cum1.png"));
-            i2 = ImageIO.read(new File("././TestFolder/cum2.png"));
+            i1 = ImageIO.read(new File("././TestFolder/smilumair.png"));
+            i2 = ImageIO.read(new File("././TestFolder/sadumair.png"));
         }catch (Exception e){
             System.out.println("There was an error with reading the image files");
             return;
         }
 
-
         System.out.println(PercentCalculator.compare(i1, i2));
-
     }
-
-
 }
