@@ -6,6 +6,7 @@
 * Ammad Hussain
 * James Chen
 * Ali Rafiei
+* Aly Umair
 
 ## What is our inspiration?
 COVID-19 has been especially hard for all of us. Being a student has been difficult with the sudden change to online learning and has burdened students throughout their university careers. One of the biggest challenges of online education is the consumption of online lectures. Our project aims to solve this problem. We have created a tool that will enhance and optimize the way students digest their online education and lecture videos. 
@@ -32,7 +33,7 @@ When we first began working on the program, our intentions were to use OpenCV to
 ## License
 MIT License
 
-Copyright (c) [2022] [Leo Yu, Ali Rafiei, James Chen, Ayyan Qamer, Ammad Hussain]
+Copyright (c) [2022] [Leo Yu, Ali Rafiei, James Chen, Ayyan Qamer, Ammad Hussain, Aly Umair]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
