@@ -6,6 +6,7 @@ public class VideoCompressor {
 
 
     public static double compress(String input, String output) {
+        System.out.println("Compressing video...");
         double videoLength = 0;
         //String input = "C://Users//Leo//Downloads//CS313Lecture.mp4";
         //String output = "C://Users//Leo//Downloads//output.mp4";
@@ -36,8 +37,8 @@ public class VideoCompressor {
             while ((grabbedImage = grabber.grab()) != null) {
                 //System.out.println(grabber.getTimestamp());
 
-                // grab 1 out of every 25 frames
-                for (int i = 0; i < 24; i++) {
+                // grab 1 out of every 30 frames
+                for (int i = 0; i < 29; i++) {
                     grabber.grab();
                 }
                 if (grabber.getTimestamp() > (grabber.getLengthInTime())) {
@@ -48,10 +49,12 @@ public class VideoCompressor {
             }
             recorder.stop();
             grabber.stop();
+            System.out.println("Done.");
             return videoLength;
         } catch (Exception e) {
-            e.printStackTrace();
-            return videoLength;
+            //e.printStackTrace();
+            System.out.println("There was an error compressing the video.");
+            return -1.0;
         }
     }
 }
